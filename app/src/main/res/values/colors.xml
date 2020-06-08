@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E53935</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#C62828</color>
+
+    <color name="colorCardOne">#C2185B</color>
+    <color name="colorCardTwo">#00796B</color>
+    <color name="colorCardThree">#0277BD</color>
+    <color name="colorCardFour">#FFB300</color>
+
+    <color name="progressBarColor">#E53935</color>
+    <color name="backgroundProgressBarColor">#EEE</color>
+</resources>

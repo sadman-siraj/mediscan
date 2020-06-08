@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right">
+
+    <ImageButton
+        android:id="@+id/fab6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_six" />
+
+    <ImageButton
+        android:id="@+id/fab5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_five" />
+
+    <ImageButton
+        android:id="@+id/fab4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_four" />
+
+    <ImageButton
+        android:id="@+id/fab3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_three" />
+
+    <ImageButton
+        android:id="@+id/fab2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_two" />
+
+    <ImageButton
+        android:id="@+id/fab1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_drawer_one" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add" >
+
+    </android.support.design.widget.FloatingActionButton>
+
+</LinearLayout>
